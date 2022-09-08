@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index",
     "dev": "nodemon index",
-    "heroku-postbuild": "MPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build  -- prefix clientcls"
+    "heroku-postbuild": "MPM_CONFIG_PRODUCTION=false"
   },
   "keywords": [],
   "author": "",
